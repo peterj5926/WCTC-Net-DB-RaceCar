@@ -22,7 +22,7 @@ namespace RaceTrack.RaceTrack.Drivers
 
         public override void StopEngine()
         {
-            Console.WriteLine($"{Name} throws the shifter in neutral and disconnects the ground wire");
+            Car.StopEngine();
         }
     }
 }

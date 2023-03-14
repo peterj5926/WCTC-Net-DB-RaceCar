@@ -22,7 +22,9 @@ namespace RaceTrack.RaceTrack.Drivers
 
         public override void StopEngine()
         {
-            Console.WriteLine($"{Name} turns the keys off and waves to the crowd");
+            
+            Car.StopEngine();
+            //Console.WriteLine($"{Name} turns the keys off and waves to the crowd");
         }
     }
 }

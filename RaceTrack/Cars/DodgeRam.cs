@@ -22,5 +22,10 @@ namespace RaceTrack.RaceTrack.Cars
             Console.WriteLine($"The {Name} power slides across the finish line!");
             base.Brake();
         }
+
+        public override void StopEngine()
+        {
+            Console.WriteLine($"The {Name} blows a head gasket and stops running.");
+        }
     }
 }
