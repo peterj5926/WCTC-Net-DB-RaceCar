@@ -1,18 +1,18 @@
-﻿using System;
+﻿using RaceTrack.RaceTrack.Cars;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using RaceTrack.RaceTrack.Cars;
 
 namespace RaceTrack.RaceTrack.Drivers
 {
-    public class Antonio : Driver
+    public class PhillipJ : Driver
     {
-        public Antonio(RaceCar car) : base(car)
+        public PhillipJ(RaceCar car) : base(car)
         {
-            Name = "Antonio";
-            SkillLevel = 10;
+            Name = "Phillip J";
+            SkillLevel = 4;
         }
 
         public override void Drive()
@@ -22,7 +22,7 @@ namespace RaceTrack.RaceTrack.Drivers
 
         public override void StopEngine()
         {
-            Console.WriteLine($"{Name} turns the keys off and waves to the crowd");
+            Console.WriteLine($"{Name} does donuts in the infield till the motor runs out of gas!");
         }
     }
 }

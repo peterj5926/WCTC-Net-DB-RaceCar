@@ -19,5 +19,10 @@ namespace RaceTrack.RaceTrack.Drivers
         {
             Car.Accelerate(SkillLevel);
         }
+
+        public override void StopEngine()
+        {
+            Console.WriteLine($"{Name} throws the shifter in neutral and disconnects the ground wire");
+        }
     }
 }
