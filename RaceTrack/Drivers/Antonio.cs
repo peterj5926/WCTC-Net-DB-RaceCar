@@ -20,11 +20,6 @@ namespace RaceTrack.RaceTrack.Drivers
             Car.Accelerate(SkillLevel);
         }
 
-        public override void StopEngine()
-        {
-            
-            Car.StopEngine();
-            //Console.WriteLine($"{Name} turns the keys off and waves to the crowd");
-        }
+      
     }
 }
